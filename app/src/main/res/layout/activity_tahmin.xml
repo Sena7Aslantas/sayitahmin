@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TahminActivity">
+
+    <TextView
+        android:id="@+id/TextViewKalan"
+        android:layout_width="272dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="56dp"
+        android:text="Kalan Hak:5"
+        android:textColor="#C2185B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewYardimci"
+        android:layout_width="241dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#C2185B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewKalan" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="263dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Sayi Girin:"
+        android:inputType="textPersonName"
+        android:textColor="#C2185B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYardimci" />
+
+    <Button
+        android:id="@+id/TahminButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="113dp"
+        android:text="TAHMİN ET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
